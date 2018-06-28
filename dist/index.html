@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Front-end test</title>
+	<meta name="description" content="Тестовое задание">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body >
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-8 col-sm-offset-2 p0">
+				
+				<div class="header">
+					<div class="hamburger" id="hamburger-1">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</div>
+					<div class="header-menu" >
+						<div>
+							<a href="#id1">Личная информация</a>
+						</div>
+						<div>
+							<a href="#id2">Опыт</a>
+						</div>
+						<div>
+							<a href="#id3">JavaScript</a>
+						</div>
+						<div>
+							<a href="#id4">О себе</a>
+						</div>
+					</div>
+					<!-- Данное меню я не делал через список, потому что хотел реализовать меню через flexbox -->
+				</div>
+				<div class="index-headline">
+				<img class="img-responsive" src="img/bg-min.jpg" alt="Анкета">
+				<h1 class="headline">Анкета</h1>
+</div>
+				<form class="index-form" action="">
+					<img src="./img/icon1.png" alt="Личная информация" class="index-form__separator" id="id1">
+					<h2 class="index-form__headline">Личная информация</h2>
+					<input type="text" name="" id="fio" placeholder="ФИО">
+					<input type="text" id="year"  placeholder="Год рождения" />
+					<input type="text" name="" id="livepl" placeholder="Место проживания">
+					<input type="text" name="" id="skyp" placeholder="Skype">
+					<input type="email" name="" id="email" placeholder="Email">
+
+					<img src="./img/icon2.png" alt="Опыт" class="index-form__separator index-form__separator-ext" id="id2">
+					<h2 class="index-form__headline">Расскажите о своем опыте</h2>
+					
+					<div class="index-form__checkbox-stack">
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="skill1" />
+							<label for="skill1">БЭМ/OOCSS</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="skill2" />
+							<label for="skill2">Верстаю семантично</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="skill3" />
+							<label for="skill3">Webpack</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="skill4" />
+							<label for="skill4">Stylus/LESS/SASS</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="skill5" />
+							<label for="skill5">ES2015/ES2016</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="skill6" />
+							<label for="skill6">jQuery</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="scales" />
+							<label for="scales">Работаю с SVG</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="scales" />
+							<label for="scales">Gulp/GRUNT</label>
+						</div>
+						<div class="index-form__checkbox-stack_part">
+							<input class="styled-checkbox" type="checkbox" name="feature" value="scales" />
+							<label for="scales">Ипользую Git</label>
+						</div>
+						
+						
+					</div>
+
+					<img src="./img/icon3.png" alt="Уровень владения JS" class="index-form__separator index-form__separator-ext index-form__separator-ext2" id="id3">
+					<h2 class="index-form__headline">Уровень владения JS</h2>
+
+					
+					
+					<div class="index-form__bar">
+						<div id="bar-title1" class="index-form__bar-title">Не владею</div>
+						<div id="bar-title2" class="index-form__bar-title">Использую готовые <br> решения</div>
+						<div id="bar-title3" class="index-form__bar-title">Использую готовые решения <br> и умею и переделывать</div>
+						<div id="bar-title4" class="index-form__bar-title">Пишу сложный JS с нуля</div>
+					</div>
+					<select name="minbeds" id="minbeds">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+					<div class="index-form__headlines">
+						<div class="index-form__headlines-single">1. Не владею</div>
+						<div class="index-form__headlines-single">2. Использую готовые решения</div>
+						<div class="index-form__headlines-single">3. Использую готовые решения и умею и переделывать</div>
+						<div class="index-form__headlines-single">4. Пишу сложный JS с нуля</div>
+					</div>
+
+					<img src="./img/icon4.png" alt="Расскажите о себе" class="index-form__separator index-form__separator-ext index-form__separator-ext2" id="id4">
+					<h2 class="index-form__headline">Расскажите о себе</h2>
+					<div class="index-form__excerpt">Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.
+</div>
+<textarea class="index-form__textarea" name="textarea" id="textarea" rows="10" placeholder="Понравилась тем, что.."></textarea>
+<button type="submit" class="index-form__submit" >Готово</button>
+				</form>	
+			</div>
+			
+		</div>
+
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
