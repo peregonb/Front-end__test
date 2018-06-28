@@ -1,0 +1,99 @@
+
+@media only screen and (max-width : 1200px){
+	.index-form__checkbox-stack_part{
+		width: 50%;
+	}
+	.index-form__checkbox-stack_part:last-child{
+		width: 100%;
+	}
+	.index-form__textarea{
+	width: 80%;
+}
+}
+
+@media only screen and (max-width : 992px){
+.ui-slider::before {
+    border-right: 350px solid transparent!important;
+    left: -11%;
+}
+.index-form__headlines{
+		display: flex;
+	}
+
+.index-form__textarea{
+	width: 80%;
+}
+}
+@media only screen and (max-width : 768px){
+.p0{
+	padding: 0;
+}
+input[type=text],
+input[type=email]{
+	width: 60% !important;
+}
+	.index-form__checkbox-stack{
+		width: 60%;
+	}
+	#slider{
+		width: 60% !important;
+	}
+	.index-form__bar{
+		width: 60%;
+	}
+	.index-form__headlines{
+		width: 60%;
+	}
+	.index-form__textarea{
+	width: 60%;
+}
+	.index-form__excerpt {
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+}
+	.ui-slider::before {
+    border-right: 350px solid transparent!important;
+    left: -11%;
+}
+}
+@media only screen and (max-width : 650px){
+	.index-form__checkbox-stack_part{
+		width: 100%;
+	}
+	
+}
+@media only screen and (max-width : 480px){
+	.hamburger{
+		display: flex !important;
+    flex-direction: column;
+	justify-content: center;
+	z-index: 10;
+	}
+	.header .header-menu {
+
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50px;
+    background: #fff;
+
+    transform: translateX(-160%);
+    box-shadow: 0 0 50px #eee;
+    border-top: 1px solid #eee;
+    transition: all .3s ease-in-out;
+	div{
+		padding: 25px;
+	}
+
+}
+#slider{
+		width: 60% !important;
+	}
+		.ui-slider::before {
+    border-right: 270px solid transparent!important;
+    left: -1%;
+}
+}
+
+@media only screen and (max-width : 320px){}
+
