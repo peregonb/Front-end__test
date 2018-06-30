@@ -1,6 +1,13 @@
 @import "fonts";
 @import "libs";
 
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+
 body{
 	font-family: 'Roboto', sans-serif;
 }
@@ -16,7 +23,7 @@ body{
 		    align-items: center;
 	width: 100%;
     justify-content: center;
-	div{
+	li{
 		display: flex;
 		padding: 0 20px;
 		a{
